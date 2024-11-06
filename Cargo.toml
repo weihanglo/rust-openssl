@@ -7,3 +7,6 @@ members = [
     "openssl-sys",
     "systest",
 ]
+
+[patch.crates-io]
+openssl-src = { git = "https://github.com/weihanglo/openssl-src-rs.git", branch = "disable-atomic" }
